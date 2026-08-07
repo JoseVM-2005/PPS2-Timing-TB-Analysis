@@ -84,10 +84,42 @@ runs_to_configs = {
     "Run068": "Config14",
     "Run069": "Config14",
     "Run070": "Config14",
-    "Run013_J" : "Config2_J"
+    "Run013_J" : "Config2_J",
+    "Run016_J" : "Config3_J"
 }
 
 run_config_info = {
+    "Config3_J": ConfigInformation(
+    name = "Config 3",
+    board_order = ["PPS_LGAD_05", "PPS_LGAD_03"],  # left board (Image 1) is in front
+    sensor_channels = lgad_board_10ch_connections,
+    sampic_to_board = {
+        "PPS_LGAD_03": {0: 10, 1: 9, 2: 8, 3: 7, 4: 6, 5: 5, 6: 4, 7: 3, 8: 2, 9: 1},
+        "PPS_LGAD_05": {30: 10, 31: 9, 32: 8, 33: 7, 34: 6, 35: 5, 36: 4, 37: 3, 38: 2, 39: 1},
+    },
+    bias_voltage = {
+        "PPS_LGAD_03": -230.0,
+        "PPS_TILGAD_AIDA_01": -310.0,
+    },
+    power = {
+        "ch1": 4.20,
+        "ch2": 4.20,
+    },
+    power_connections = {
+        "ch1": ("OA02", "OA05"),
+        "ch2": ("OA01","OA04"),
+    },
+    sampic_amplifiers = {
+        0: "OA02.8", 1: "OA02.7", 2: "OA02.6", 3: "OA02.5", 4: "OA02.4", 5: "OA02.3",
+        6: "OA02.2", 7: "OA02.1", 8: "OA05.8", 9: "OA05.7", 10: "OA05.6", 11: "OA05.5",
+        12: "OA05.4", 13: "OA05.3", 14: "OA05.2", 15: "OA01.1", 16: "OA01.8", 17: "OA01.7",
+        18: "OA01.6", 19: "OA01.5", 20: "OA01.4", 21: "OA01.3", 22: "OA01.2", 23: "OA05.1",
+        24: "OA04.8", 25: "OA04.7", 26: "OA04.6", 27: "OA04.5", 28: "OA04.4", 29: "OA04.3",
+        30: "OA04.2", 31: "OA04.1", 32: "OA03.8", 33: "OA03.7", 34: "OA03.6", 35: "OA03.5",
+        36: "OA03.4", 37: "OA03.3", 38: "OA03.2", 39: "OA03.1",
+    },
+    ),
+
     "Config2_J": ConfigInformation(
         name = "Config 2",
         board_order = ["PPS_TILGAD_AIDA_01", "PPS_LGAD_03"],  # left board (Image 1) is in front
@@ -613,6 +645,13 @@ run_config_info = {
 }
 
 run_info = {
+    "Run022_J": RunInformation(
+        name = "Run 022_J",
+        trigger_mode = "self",
+        trigger_channels = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 23),
+        data_format = "binary",
+        comment = "Config3_J. New run after stop for magnet intervention.",
+    ),
     "Run013_J": RunInformation(
         name = "Run 013_J",
         trigger_mode = "self",
