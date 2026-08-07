@@ -85,12 +85,13 @@ runs_to_configs = {
     "Run069": "Config14",
     "Run070": "Config14",
     "Run013_J" : "Config2_J",
-    "Run016_J" : "Config3_J"
+    "Run016_J" : "Config3_J",
+    "Run022_J" : "Config3_J"
 }
 
 run_config_info = {
     "Config3_J": ConfigInformation(
-    name = "Config 3",
+    name = "Config 3_J",
     board_order = ["PPS_LGAD_05", "PPS_LGAD_03"],  # left board (Image 1) is in front
     sensor_channels = lgad_board_10ch_connections,
     sampic_to_board = {
@@ -121,7 +122,7 @@ run_config_info = {
     ),
 
     "Config2_J": ConfigInformation(
-        name = "Config 2",
+        name = "Config 2_J",
         board_order = ["PPS_TILGAD_AIDA_01", "PPS_LGAD_03"],  # left board (Image 1) is in front
         sensor_channels = lgad_board_10ch_connections,
         sampic_to_board = {
@@ -645,6 +646,13 @@ run_config_info = {
 }
 
 run_info = {
+    "Run016_J": RunInformation(
+        name = "Run 016_J",
+        trigger_mode = "self",
+        trigger_channels = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 23),
+        data_format = "binary",
+        comment = "Config3_J. First run with normal LGAD and Irradiated LGAD, the other Irradiated LGAD does not have a functioning power supply yet (issues with GPIB communication).",
+    ),
     "Run022_J": RunInformation(
         name = "Run 022_J",
         trigger_mode = "self",
