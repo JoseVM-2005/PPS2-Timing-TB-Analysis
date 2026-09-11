@@ -1,0 +1,17 @@
+# sampic_config.toml
+# -------------------
+# Constellation configuration for the SAMPIC satellite.
+# Pass this file to the Controller with: Controller -g mylab --config sampic_config.toml
+
+[Sampic.One]
+sampic_ip       = "192.168.1.46"   # IP of the Windows PC running SAMPIC GUI
+sampic_port     = 8261             # TCP port of the SAMPIC server
+
+save_directory  = 'C:\SAMPICtest'  # Folder on the WINDOWS machine where data is saved
+base_filename   = "testrun"        # Prefix for output files
+
+run_time_s      = 0                # Seconds per run  (0 = continuous until stop command)
+run_hits        = 0                # Stop after N hits (0 = disabled)
+
+# Uncomment the line below to auto-load a SAMPIC setup file on initialize:
+setup_file = 'C:\SAMPICtest\Setup_Labtest.dat'

@@ -1,0 +1,189 @@
+Accounting for clusters:
+
+Run016_S
+============================================================
+Event database built
+============================================================
+  Total groups formed             :  1,186,442
+  Discarded (<2 LGADs)            :  1,132,493
+  Discarded (disconnected cluster):      2,727
+  Discarded non-adjacent *pairs*  :      8,230
+  Valid events kept               :     51,222
+  Of which cluster hits           :      3,149
+LGADS used for event building (valid events per board):
+    PPS_LGAD_03                   : 40,374
+    USFD4-GR3-0 T10               : 41,383
+    USFD4-GR3-0 T9                : 3,265
+    USFD4-GR3-1 T10               : 5,713
+============================================================
+
+
+>>> STEP 3: Generating diagnostic plots...
+
+=================================================================
+                 TIME RESOLUTION RESULTS (CFD50)                 
+=================================================================
+Pairs Fitted σ(Δt):
+-----------------------------------------------------------------
+  • PPS_LGAD_03 - USFD4-GR3-0 T10           :   96.9 ± 0.4   ps
+  • PPS_LGAD_03 - USFD4-GR3-0 T9            :   96.1 ± 2.0   ps
+  • PPS_LGAD_03 - USFD4-GR3-1 T10           :   99.4 ± 1.5   ps
+  • USFD4-GR3-0 T10 - USFD4-GR3-0 T9            :   93.4 ± 1.7   ps
+  • USFD4-GR3-0 T10 - USFD4-GR3-1 T10           :   92.1 ± 1.2   ps
+  • USFD4-GR3-0 T9 - USFD4-GR3-1 T10           :   85.8 ± 3.0   ps
+
+Individual Detector Resolutions (via WLS):
+-----------------------------------------------------------------
+  • PPS_LGAD_03                         :   72.1 ± 1.1   ps
+  • USFD4-GR3-0 T10                     :   64.9 ± 1.2   ps
+  • USFD4-GR3-0 T9                      :   63.9 ± 1.8   ps
+  • USFD4-GR3-1 T10                     :   65.5 ± 1.4   ps
+=================================================================
+
+
+
+
+
+Run017_S 
+
+============================================================
+Event database built
+============================================================
+  Total groups formed             :  1,396,652
+  Discarded (<2 LGADs)            :  1,334,106
+  Discarded (disconnected cluster):      3,237
+  Discarded non-adjacent *pairs*  :      9,560
+  Valid events kept               :     59,309
+  Of which cluster hits           :      3,804
+LGADS used for event building (valid events per board):
+    PPS_LGAD_03                   : 46,506
+    USFD4-GR3-0 T10               : 47,528
+    USFD4-GR3-0 T9                : 3,784
+    USFD4-GR3-1 T10               : 6,704
+============================================================
+                 TIME RESOLUTION RESULTS (CFD50)                 
+=================================================================
+Pairs Fitted σ(Δt):
+-----------------------------------------------------------------
+  • PPS_LGAD_03 - USFD4-GR3-0 T10           :   97.5 ± 0.4   ps
+  • PPS_LGAD_03 - USFD4-GR3-0 T9            :   97.7 ± 1.9   ps
+  • PPS_LGAD_03 - USFD4-GR3-1 T10           :   99.6 ± 1.4   ps
+  • USFD4-GR3-0 T10 - USFD4-GR3-0 T9            :   89.9 ± 1.7   ps
+  • USFD4-GR3-0 T10 - USFD4-GR3-1 T10           :   88.5 ± 1.1   ps
+  • USFD4-GR3-0 T9 - USFD4-GR3-1 T10           :   89.7 ± 2.7   ps
+
+Individual Detector Resolutions (via WLS):
+-----------------------------------------------------------------
+  • PPS_LGAD_03                         :   75.4 ± 0.9   ps
+  • USFD4-GR3-0 T10                     :   61.8 ± 1.1   ps
+  • USFD4-GR3-0 T9                      :   63.9 ± 1.7   ps
+  • USFD4-GR3-1 T10                     :   63.8 ± 1.3   ps
+=================================================================
+
+
+Run018_S 
+
+============================================================
+Event database built
+============================================================
+  Total groups formed             :  2,236,800
+  Discarded (<2 LGADs)            :  2,167,892
+  Discarded (disconnected cluster):      2,785
+  Discarded non-adjacent *pairs*  :     13,064
+  Valid events kept               :     66,123
+  Of which cluster hits           :      3,960
+LGADS used for event building (valid events per board):
+    PPS_LGAD_03                   : 35,229
+    USFD4-GR3-0 T10               : 36,866
+    USFD4-GR3-0 T9                : 17,645
+    USFD4-GR3-1 T10               : 23,065
+=================================================================
+                 TIME RESOLUTION RESULTS (CFD50)                 
+=================================================================
+Pairs Fitted σ(Δt):
+-----------------------------------------------------------------
+  • PPS_LGAD_03 - USFD4-GR3-0 T10           :  107.0 ± 0.5   ps
+  • PPS_LGAD_03 - USFD4-GR3-0 T9            :  109.9 ± 1.6   ps
+  • PPS_LGAD_03 - USFD4-GR3-1 T10           :  104.2 ± 1.2   ps
+  • USFD4-GR3-0 T10 - USFD4-GR3-0 T9            :   96.4 ± 1.5   ps
+  • USFD4-GR3-0 T10 - USFD4-GR3-1 T10           :   88.9 ± 0.9   ps
+  • USFD4-GR3-0 T9 - USFD4-GR3-1 T10           :   91.7 ± 0.6   ps
+
+Individual Detector Resolutions (via WLS):
+-----------------------------------------------------------------
+  • PPS_LGAD_03                         :   84.7 ± 0.8   ps
+  • USFD4-GR3-0 T10                     :   65.7 ± 0.9   ps
+  • USFD4-GR3-0 T9                      :   69.7 ± 1.0   ps
+  • USFD4-GR3-1 T10                     :   59.9 ± 1.0   ps
+=================================================================
+
+
+Run27_S
+
+============================================================
+Event database built
+============================================================
+  Total groups formed             :  1,112,905
+  Discarded (<2 LGADs)            :  1,073,823
+  Discarded (disconnected cluster):      2,058
+  Discarded non-adjacent *pairs*  :      7,738
+  Valid events kept               :     37,024
+  Of which cluster hits           :      2,889
+LGADS used for event building (valid events per board):
+    PPS_LGAD_03                   : 21,976
+    USFD4-GR3-0_T10               : 23,932
+    USFD4-GR3-0_T9                : 6,192
+    USFD4-GR3-1_T10               : 10,015
+============================================================
+                 TIME RESOLUTION RESULTS (CFD50)                 
+=================================================================
+Pairs Fitted σ(Δt):
+-----------------------------------------------------------------
+  • PPS_LGAD_03 - USFD4-GR3-0_T10           :  100.4 ± 0.6   ps
+  • PPS_LGAD_03 - USFD4-GR3-0_T9            :  112.8 ± 2.4   ps
+  • PPS_LGAD_03 - USFD4-GR3-1_T10           :  107.3 ± 1.6   ps
+  • USFD4-GR3-0_T10 - USFD4-GR3-0_T9            :   95.9 ± 1.9   ps
+  • USFD4-GR3-0_T10 - USFD4-GR3-1_T10           :   86.6 ± 1.0   ps
+  • USFD4-GR3-0_T9 - USFD4-GR3-1_T10           :   97.7 ± 1.4   ps
+
+Individual Detector Resolutions (via WLS):
+-----------------------------------------------------------------
+  • PPS_LGAD_03                         :   83.1 ± 1.0   ps
+  • USFD4-GR3-0_T10                     :   56.8 ± 1.4   ps
+  • USFD4-GR3-0_T9                      :   74.7 ± 1.4   ps
+  • USFD4-GR3-1_T10                     :   65.1 ± 1.3   ps
+=================================================================
+
+No Cluster
+
+17_S
+
+Individual Detector Resolutions (via WLS):
+-----------------------------------------------------------------
+  • PPS_LGAD_03                         :   75.6 ± 1.0   ps
+  • USFD4-GR3-0 T10                     :   64.1 ± 1.2   ps
+  • USFD4-GR3-0 T9                      :   65.1 ± 1.8   ps
+  • USFD4-GR3-1 T10                     :   64.4 ± 1.3   ps
+=================================================================
+
+=================================================================
+
+16_S
+
+Individual Detector Resolutions (via WLS):
+-----------------------------------------------------------------
+  • PPS_LGAD_03                         :   72.5 ± 1.1   ps
+  • USFD4-GR3-0 T10                     :   66.5 ± 1.2   ps
+  • USFD4-GR3-0 T9                      :   62.0 ± 1.9   ps
+  • USFD4-GR3-1 T10                     :   66.8 ± 1.5   ps
+=================================================================
+
+18_S
+=================================================================
+
+Individual Detector Resolutions (via WLS):
+-----------------------------------------------------------------
+  • PPS_LGAD_03                         :   85.6 ± 0.8   ps
+  • USFD4-GR3-0 T10                     :   67.1 ± 1.0   ps
+  • USFD4-GR3-0 T9                      :   70.2 ± 1.1   ps
+  • USFD4-GR3-1 T10                     :   60.3 ± 1.1   ps
